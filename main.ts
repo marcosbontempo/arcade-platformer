@@ -93,3 +93,6 @@ mySprite.ay = 200
 tiles.placeOnTile(mySprite, tiles.getTileLocation(2, 12))
 scene.cameraFollowSprite(mySprite)
 controller.moveSprite(mySprite, 100, 0)
+game.onUpdate(function () {
+	
+})
